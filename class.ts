@@ -28,7 +28,7 @@ class User {
 }
 
 
-class Person extends User{
+class Persons extends User{
  constructor(public username : string , public salary : number){
   super(username,salary) 
  }
@@ -44,5 +44,5 @@ class Person extends User{
 let newUser = new User("aladdin" , 5000)
 newUser.personInfo()
 
-let newPerson = new Person("khalil" , 2000)
+let newPerson = new Persons("khalil" , 2000)
 newPerson.move()
